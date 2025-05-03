@@ -26,3 +26,8 @@ body {
 .dark body {
   @apply bg-black text-white;
 }
+/* src/app/ui/global.css */
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
