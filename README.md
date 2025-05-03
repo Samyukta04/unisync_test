@@ -19,6 +19,17 @@ cd unisync_test
 
 Make sure you have Node.js installed.
 ```bash
-npm start
+npm install
 ```
+### 3. Navigation
 
+```bash
+cd client
+npm run dev
+```
+In another terminal
+
+```bash
+cd server
+node server.js
+```
