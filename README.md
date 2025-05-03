@@ -22,14 +22,25 @@ Make sure you have Node.js installed.
 npm install
 ```
 ### 3. Navigation
+Open two terminals and do
+```bash
+cd UNISYNC
+```
+
+In the first terminal
+```bash
+cd server
+node server.js
+```
+In another terminal
 
 ```bash
 cd client
 npm run dev
 ```
-In another terminal
+You'll get a message called
 
-```bash
-cd server
-node server.js
-```
+ ▲ Next.js 15.3.1
+   - Local:        http://localhost:3000
+
+Press on the http link, this will direct you to the webpage
